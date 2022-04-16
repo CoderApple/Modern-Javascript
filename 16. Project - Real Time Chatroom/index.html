@@ -56,6 +56,24 @@
         </form>
     </div>
 
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-firestore.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+          apiKey: "AIzaSyDfDW6Do1L5T9ftzCZkAhtTxKgD_XZ1LX4",
+          authDomain: "applechatroom.firebaseapp.com",
+          databaseURL: "https://applechatroom.firebaseapp.com",
+          projectId: "applechatroom",
+          storageBucket: "applechatroom.appspot.com",
+          messagingSenderId: "769842249593",
+          appId: "1:769842249593:web:92ca97efcdce4914f8b9a8",
+          measurementId: "G-94MQQ0ZGXK"
+        };
+        firebase.initializeApp(config);
+        const db = firebase.firestore();
+      </script>
+
     <script src="scripts/chat.js"></script>
     <script src="scripts/ui.js"></script>
     <script src="scripts/app.js"></script>
