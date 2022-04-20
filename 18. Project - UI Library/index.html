@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/tooltip.css">
     <link rel="stylesheet" href="styles/dropdown.css">
+    <link rel="stylesheet" href="styles/tabs.css">
     <title>UI Library</title>
     <style>
         body{
             font-size: 1.5em;
+            max-width: 800px;
+            text-align: center;
+            margin: 0px auto;
         }
         .container{
             margin: 40px;
@@ -35,9 +39,30 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, expedita. Non doloremque architecto aperiam error corporis laudantium ut perspiciatis rem, sit et totam enim sunt iure minus. Amet dolorem iusto consequuntur deserunt provident, maiores odit ipsam magni voluptas consectetur, soluta laboriosam fuga est nostrum distinctio. Facere facilis accusantium consequatur mollitia!</p>
         </div>
     </div>
+    <h2>More Information</h2>
+    <div class="tabs">
+        <ul>
+            <li class="trigger tabactive" data-target="#about">About</li>
+            <li class="trigger" data-target="#delivery">Delivery info</li>
+            <li class="trigger" data-target="#returns">Returns info</li>
+        </ul>
+        <div id="about" class="content tabactive">
+            <h3>about</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, et suscipit nemo non architecto necessitatibus consequuntur provident minima rem veniam obcaecati itaque dolores quae. Dicta, autem inventore! Modi repellendus ducimus asperiores possimus, minima, officiis, labore nostrum maiores quidem in obcaecati! Rerum doloribus quas eius eum nisi magnam minima labore nostrum!</p>
+        </div>
+        <div id="delivery" class="content">
+            <h3>delivery</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, et suscipit nemo non architecto necessitatibus consequuntur provident minima rem veniam obcaecati itaque dolores quae. Dicta, autem inventore! Modi repellendus ducimus asperiores possimus, minima, officiis, labore nostrum maiores quidem in obcaecati! Rerum doloribus quas eius eum nisi magnam minima labore nostrum!</p>
+        </div>
+        <div id="returns" class="content">
+            <h3>returns</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, et suscipit nemo non architecto necessitatibus consequuntur provident minima rem veniam obcaecati itaque dolores quae. Dicta, autem inventore! Modi repellendus ducimus asperiores possimus, minima, officiis, labore nostrum maiores quidem in obcaecati! Rerum doloribus quas eius eum nisi magnam minima labore nostrum!</p>
+        </div>
+    </div>
 
     <script src="scripts/tooltip.js"></script>
     <script src="scripts/dropdown.js"></script>
+    <script src="scripts/tabs.js"></script>
     <script src="scripts/sandbox.js"></script>
 </body>
 </html>
