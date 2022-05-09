@@ -14,5 +14,3 @@
 > how to make useful JavaScript driven UI components like popups, drop-downs, tabs, tool-tips & more
 
 > how to use real-time databases to store, retrieve and update application data
-
-###### Course by [The Net Ninja](https://www.youtube.com/c/TheNetNinja)
